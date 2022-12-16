@@ -8,7 +8,7 @@ One important aspect of managing IaC is ensuring that the code adheres to best p
 
 There are several static code analysis tools available for scanning IaC scripts, including:
 
-* Terraform: Terraform is a popular open-source IaC tool that allows users to define infrastructure as code and deploy it across a variety of cloud and on-premises environments. It includes a built-in static code analysis tool called "terraform validate," which checks the syntax and structure of Terraform configuration files.
+* Terraform: Terraform is a popular open-source IaC tool that allows users to define infrastructure as code and deploy it across a variety of cloud and on-premises environments. It includes a built-in static code analysis tool called "[terraform validate](https://developer.hashicorp.com/terraform/cli/commands/validate)," which checks the syntax and structure of Terraform configuration files.
 
 * AWS CloudFormation: AWS CloudFormation is an IaC service provided by Amazon Web Services (AWS). It allows users to create and manage AWS infrastructure resources using templates written in JSON or YAML. CloudFormation includes a static code analysis tool called "[cfn-lint](https://github.com/aws-cloudformation/cfn-lint)," which checks the syntax and structure of CloudFormation templates for errors and best practices.
 
