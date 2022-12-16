@@ -6,18 +6,24 @@ One important aspect of managing IaC is ensuring that the code adheres to best p
 
 There are several static code analysis tools available for scanning IaC scripts, including:
 
-    Terraform: Terraform is a popular open-source IaC tool that allows users to define infrastructure as code and deploy it across a variety of cloud and on-premises environments. It includes a built-in static code analysis tool called "terraform validate," which checks the syntax and structure of Terraform configuration files.
+* Terraform: Terraform is a popular open-source IaC tool that allows users to define infrastructure as code and deploy it across a variety of cloud and on-premises environments. It includes a built-in static code analysis tool called "terraform validate," which checks the syntax and structure of Terraform configuration files.
 
-    AWS CloudFormation: AWS CloudFormation is an IaC service provided by Amazon Web Services (AWS). It allows users to create and manage AWS infrastructure resources using templates written in JSON or YAML. CloudFormation includes a static code analysis tool called "cfn-lint," which checks the syntax and structure of CloudFormation templates for errors and best practices.
+* AWS CloudFormation: AWS CloudFormation is an IaC service provided by Amazon Web Services (AWS). It allows users to create and manage AWS infrastructure resources using templates written in JSON or YAML. CloudFormation includes a static code analysis tool called "cfn-lint," which checks the syntax and structure of CloudFormation templates for errors and best practices.
 
-    Ansible-lint: ansible-lint is a static code analysis tool for ansible playbooks. It checks for issues such as syntax errors, usage of deprecated modules, and compliance with best practices.
+* Ansible-lint: ansible-lint is a static code analysis tool for ansible playbooks. It checks for issues such as syntax errors, usage of deprecated modules, and compliance with best practices.
 
-    Puppet: Puppet is a configuration management tool that allows users to define infrastructure as code and automate the provisioning and management of resources. It includes a static code analysis tool called "puppet-lint," which checks Puppet manifests for syntax errors and adherence to best practices.
+* Puppet: Puppet is a configuration management tool that allows users to define infrastructure as code and automate the provisioning and management of resources. It includes a static code analysis tool called "puppet-lint," which checks Puppet manifests for syntax errors and adherence to best practices.
 
 In addition to these tools, there are also several open-source static code analysis tools that can be used to scan IaC scripts written in a variety of languages, such as Chef, SaltStack, and Azure Resource Manager. Some examples include:
 
-    Checkov: Checkov is an open-source static code analysis tool for infrastructure as code (IaC) scripts. It is designed to identify security and compliance issues in IaC scripts written in a variety of languages, including Terraform, AWS CloudFormation, ansible, and more. Checkov can be integrated into the development workflow as a command-line tool or as a plugin for popular code collaboration and continuous integration/continuous delivery (CI/CD) platforms such as Jenkins, CircleCI, and GitHub Actions.
+* Checkov: Checkov is an open-source static code analysis tool for infrastructure as code (IaC) scripts. It is designed to identify security and compliance issues in IaC scripts written in a variety of languages, including Terraform, AWS CloudFormation, ansible, and more. Checkov can be integrated into the development workflow as a command-line tool or as a plugin for popular code collaboration and continuous integration/continuous delivery (CI/CD) platforms such as Jenkins, CircleCI, and GitHub Actions.
 
-    Bridgecrew: Bridgecrew is an open-source tool that scans IaC scripts for security and compliance issues. It supports a wide range of IaC languages, including Terraform, AWS CloudFormation, and Kubernetes manifests. Bridgecrew can be used as a command-line tool or integrated into CI/CD pipelines.
+* Bridgecrew: Bridgecrew is an open-source tool that scans IaC scripts for security and compliance issues. It supports a wide range of IaC languages, including Terraform, AWS CloudFormation, and Kubernetes manifests. Bridgecrew can be used as a command-line tool or integrated into CI/CD pipelines.
 
-    Conftest: Conftest is an open-source tool for testing and validating IaC scripts using the Open Policy Agent (OPA) framework. It allows users to define custom policies and test their IaC scripts against these policies to ensure compliance. Conftest supports a variety of IaC languages and
+* Conftest: Conftest is an open-source tool for testing and validating IaC scripts using the Open Policy Agent (OPA) framework. It allows users to define custom policies and test their IaC scripts against these policies to ensure compliance. Conftest supports a variety of IaC languages and can be integrated into CI/CD pipelines.
+
+* Terrascan: Terrascan is an open-source static code analysis tool for Terraform IaC scripts. It checks for issues such as syntax errors, insecure resource configurations, and compliance violations. Terrascan can be used as a command-line tool or integrated into CI/CD pipelines.
+
+* CloudSploit: CloudSploit is an open-source tool for scanning AWS infrastructure for security and compliance issues. It includes a module for scanning CloudFormation templates for issues such as exposed secrets and insecure resource configurations. CloudSploit can be used as a command-line tool or integrated into CI/CD pipelines.
+
+These are just a few examples of the many open-source tools available for scanning IaC scripts. It's worth noting that many of these tools are language-specific, so it's important to choose a tool that supports the IaC language you are using.
