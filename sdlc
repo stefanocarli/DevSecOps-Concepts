@@ -1,4 +1,4 @@
-## SDLC
+## SDLC: The software development life cycle
 
 The software development life cycle (SDLC) is the process followed when developing software, from the initial planning and design phase through to testing and deployment. It includes a series of steps that ensure that the software is developed in a systematic and organized manner, and that it meets the needs and requirements of the users. The SDLC typically includes the following phases:
 
@@ -15,3 +15,9 @@ The software development life cycle (SDLC) is the process followed when developi
 * Deployment: Once the software has been tested and deemed ready for use, it is deployed and made available to the users.
 
 * Maintenance: After the software has been deployed, it may require ongoing maintenance to fix bugs and make updates or improvements.
+
+## The Secure Software Development Life Cycle (SSDLC): A Variation of the SDLC that Emphasizes Security
+
+The secure software development life cycle (SSDLC) is a variation of the standard SDLC that emphasizes the importance of security throughout the development process. It involves incorporating security measures and considerations into each phase of the SDLC, from planning and analysis through to testing and deployment.
+
+The goal of the SSDLC is to ensure that the software is developed in a secure manner, with the aim of minimizing the risk of security breaches and vulnerabilities.
